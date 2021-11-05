@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule</title>
+    <link rel="stylesheet" href="calculCSS.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    
+    <h1 class="c">
+        Calculatrice
+    </h1>
+    <table class = "calculator" >
+        <tr>
+        <td colspan = "3"> <input class ="display-box" type ="text" id ="result"/> </td>
+        <!-- clearScreen() function clear all the values -->
+        <td> <input class = "button" type = "button" value = "C" onclick = "clearScreen()" style = "background-color: #fb0066;" /> </td>
+        </tr>
+        <tr>
+        <!-- applique() function applique the value of clicked button -->
+        <td> <input class = "button" type = "button" value = "1" onclick = "applique('1')" /> </td>
+        <td> <input class = "button" type = "button" value = "2" onclick = "applique('2')" /> </td>
+        <td> <input class = "button" type = "button" value = "3" onclick = "applique('3')" /> </td>
+        <td> <input class = "button" type = "button" value = "/" onclick = "Division()" /> </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "4" onclick = "applique('4')" /> </td>
+        <td> <input class = "button" type = "button" value = "5" onclick = "applique('5')" /> </td>
+        <td> <input class = "button" type = "button" value = "6" onclick = "applique('6')" /> </td>
+        <td> <input class = "button" type = "button" value = "-" onclick = "Moin()" /> </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "7" onclick = "applique('7')" /> </td>
+        <td> <input class = "button" type = "button" value = "8" onclick = "applique('8')" /> </td>
+        <td> <input class = "button" type = "button" value = "9" onclick = "applique('9')" /> </td>
+        <td> <input class = "button" type = "button" value = "+" onclick = "plus()" id="p" /> </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "." onclick = "applique('.')" /> </td>
+        <td> <input class = "button" type = "button" value = "0" onclick = "applique('0')" /> </td>
+        <!-- calculate() function evaluate the mathematical expression -->
+        <td> <input class = "button" type = "button" value = "=" onclick = "calculate()" style = "background-color: #fb0066;" /> </td>
+        <td> <input class = "button" type = "button" value = "*" onclick = "Mult()" /> </td>
+        </tr>
+        </table>
+       </body>
+       </html>
+</body>
+</html>

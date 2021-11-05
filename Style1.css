@@ -1,0 +1,150 @@
+
+/*{
+    margin:0;
+    padding: 0;  
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+body
+{
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0px auto;
+}
+.Header{
+    width: 100%;
+    border:1px solid rgb(216, 16, 16);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.Main_ul 
+{
+    border: 4px solid blue;
+
+}
+
+.Main_ul li
+{
+    
+    background-color: rgb(171, 173, 173);
+    display: inline;
+
+     padding-top padding-right padding-bottom padding-left 
+    padding: 20px 53px 20px 50px ;
+    font-size: 40px;
+    cursor: pointer;
+    
+    
+}
+.Main_ul li a
+{
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(29, 29, 28);
+}
+
+li:hover {
+    background-color: rgb(116, 116, 113);
+  }
+
+  */
+
+/* start header */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+max-width: 1343px;
+margin: 0px auto;
+min-height: 100vh;
+overflow-x: hidden;
+background-color: #fff;
+}
+header{
+    width: 100%;
+    background:blueviolet;
+    
+}
+header .list{
+    width: inherit;
+    display:flex;
+    flex-wrap: wrap;
+   
+
+}
+/*header .list li{
+    width: calc(100% / 7);
+
+}*/
+header .list li a{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width: calc(1343px / 7);
+    
+    
+}
+a:hover{
+    background:rgb(175, 175, 171);
+}
+
+  /* start imagae JS */
+
+  .JS
+  {
+      background:rgb(226, 228, 228);
+      width: 100%;
+      height: 300px;
+  }
+  .title
+  {
+      font-size: 100px;
+      text-align: center;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 90px;
+      color: rgb(236, 221, 13);
+  }
+  .title2
+  {
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      font-family: cursive;
+      color: rgba(95, 94, 6, 0.698);
+    
+  }
+  /* End Image JS */
+
+ /* start Centenu */
+
+ .Main_Content
+ {
+     width: 100%;
+     position: absolute;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(400px,400px));
+     column-gap: 10px;
+     row-gap: 10px;
+     
+ }
+ img{
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+     object-position: center;
+     border-radius: 50%;
+ }
+ 
+ /* start footer */
+ 

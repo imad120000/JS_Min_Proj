@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+max-width: 1511.11px;
+margin: 0px auto;
+min-height: 100vh;
+background-color: rgb(78, 14, 14);
+}
+header{
+    width: 100%;
+    background:blueviolet;
+}
+header .list{
+    width: inherit;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+/*header .list li{
+    width: calc(100% / 7);
+
+}*/
+header .list li a{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width: calc(1511.11px / 7);
+    
+}
+a:hover{
+    background:yellow;
+}
